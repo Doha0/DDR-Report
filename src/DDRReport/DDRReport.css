@@ -1,0 +1,15 @@
+.section-style {
+    @apply py-20 bg-white mx-auto max-w-fit
+}
+
+.ThStyle {
+    @apply w-1/6 min-w-[160px] border-l border-transparent py-4 px-3 text-lg bg-[#e8ffc8] font-semibold text-black lg:py-7 lg:px-4;
+}
+
+.TdStyle {
+    @apply border-b border-l border-[#e8e8e8] bg-[#fafff3] py-5 px-2 text-center text-base font-medium text-black;
+}
+
+.TdButton {
+    @apply inline-block px-6 py-2 border rounded border-black text-black hover:bg-green-400 hover:text-white;
+}
